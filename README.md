@@ -19,7 +19,7 @@ Information at [Project Euler 064](https://projecteuler.net/problem=64)
 
 **Getting Started**
 
-Enter a whole number between 13 and 10000 (without leading zeros) and select the Submit Button.  You will see the number of continued fractions for N less than or equal to the number entered that have an odd period, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
+Enter a whole number between 2 and 10000 (without leading zeros) and select the Submit Button.  You will see the number of continued fractions for N less than or equal to the number entered that have an odd period, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
 
 **User Stories**
 
@@ -27,8 +27,8 @@ As a user, I expect to get an error message, if I do any of:
 
 - Not enter anything in the input field
 - Entering text other than a number
-- Entering a number less than 13 or greater than 10000
-- Including leading zeros such as 013
+- Entering a number less than 2 or greater than 10000
+- Including leading zeros such as 02
 - Entering a number, but it is not an integer
 
 As a user, if I select the Reset Button, I can clear the information or start again.
@@ -47,7 +47,7 @@ User Stories on function `oddPeriodSqrts(n)` taken from [FreeCodeCamp - Coding I
 
 **Information Architecture**
 
-The function `oddPeriodSqrts(n)` returns a number, where n is a number.
+The function `oddPeriodSqrts(n)` returns a number, where n is a number between 2 and 10000.
 
 ## Features
 
