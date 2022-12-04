@@ -5,7 +5,7 @@ function getNumberInfo() {
     // Get the Value of the Input Field
     let num = document.getElementById("mynumber").value;
     // Check if input is valid
-    if (isNaN(num) || num.length == 0 || num<13 || num>10000 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
+    if (isNaN(num) || num.length == 0 || num < 13 || num > 10000 || (num.length > 1 && num[0] == "0") || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 13 and 10000.`;
     } else {
         txt += `You have entered the number ${num}. <p>`;
@@ -32,8 +32,8 @@ function oddPeriodSqrts(n) {
         const a0 = a;
         while (2 * a0 !== a) {
             m = d * a - m;
-            d = Math.floor((num-m**2)/d);
-            a = Math.floor((Math.sqrt(num) + m)/d);
+            d = Math.floor((num - m ** 2) / d);
+            a = Math.floor((Math.sqrt(num) + m) / d);
             period++;
         }
         return period;
@@ -44,9 +44,9 @@ function oddPeriodSqrts(n) {
     }
 
     let counter = 0;
-    for (let i=2;i<=n;i++) {
+    for (let i = 2; i <= n; i++) {
         if (!isPerfectSquare(i)) {
-            if (getPeriod(i) % 2 !==0) counter++;
+            if (getPeriod(i) % 2 !== 0) counter++;
         }
     }
 
