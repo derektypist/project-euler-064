@@ -48,3 +48,30 @@ User Stories on function `oddPeriodSqrts(n)` taken from [FreeCodeCamp - Coding I
 **Information Architecture**
 
 The function `oddPeriodSqrts(n)` returns a number, where n is a number.
+
+## Features
+
+Allows the user to enter a number, in order to get the number of continued fractions for N less than or equal to that number that have an odd period.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.3 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-064) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
