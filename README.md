@@ -23,6 +23,16 @@ Enter a whole number between 13 and 10000 (without leading zeros) and select the
 
 **User Stories**
 
+As a user, I expect to get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 13 or greater than 10000
+- Including leading zeros such as 013
+- Entering a number, but it is not an integer
+
+As a user, if I select the Reset Button, I can clear the information or start again.
+
 As a user, I expect the function `oddPeriodSqrts(13)` to return a number.
 
 As a user, I expect the function `oddPeriodSqrts(500)` to return 83.
