@@ -17,6 +17,10 @@ Information at [Project Euler 064](https://projecteuler.net/problem=64)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 13 and 10000 (without leading zeros) and select the Submit Button.  You will see the number of continued fractions for N less than or equal to the number entered that have an odd period, unless you have made an invalid input.  Select the Reset Button to clear the information or to start again.
+
 **User Stories**
 
 As a user, I expect the function `oddPeriodSqrts(13)` to return a number.
